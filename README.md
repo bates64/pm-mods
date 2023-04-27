@@ -1,8 +1,8 @@
 # Alex's PM mods
 
-This is a collection of Paper Mario (N64) mod packages made using [Merlon](merlon).
+This is a collection of Paper Mario (N64) mod packages made using [Merlon][merlon]
 
-To download, see [the releases page](releases). To apply a mod, use `merlon apply <package>`. To use a package in your own mod, add it as a dependency with `merlon add <package>`.
+To download, see [the releases page][releases]. To apply a mod, use `merlon apply <package>`. To use a package in your own mod, add it as a dependency with `merlon add <package>`.
 
 List of mods:
 
