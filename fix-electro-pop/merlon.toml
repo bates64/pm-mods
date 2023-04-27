@@ -5,7 +5,7 @@ version = "1.0.0"
 authors = ["Alex Bates <alex@nanaian.town>"]
 description = "Fixes bug where Electro Pop sets FP to HP+15 rather than FP+15"
 license = "CC-BY-SA-4.0"
-keywords = []
+keywords = ["bugfix"]
 
 [[dependencies]]
 type = "decomp"

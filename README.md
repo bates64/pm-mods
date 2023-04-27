@@ -6,9 +6,13 @@ To download, see [the releases page][releases]. To apply a mod, use `merlon appl
 
 List of mods:
 
-- [Skip developer logos](skip-developer-logos): Skips developer logos on startup
-- [Paper Capio](paper-capio): Changes title screen logotype
-- [Alex's kitchen sink](kitchen-sink): All above mods in one package
+- [Alex's kitchen sink](kitchen-sink): All my mods in one package
+- Bug fixes
+    - [Fix Electro Pop](fix-electro-pop): Fixes bug where Electro Pop sets FP to HP+15 rather than FP+15
+- Quality-of-life
+    - [Skip developer logos](skip-developer-logos): Skips developer logos on startup
+- Cosmetic
+    - [Paper Capio](paper-capio): Changes title screen logotype
 
 [merlon]: https://github.com/nanaian/merlon
 [releases]: https://github.com/nanaian/skip-intro-logos/releases
