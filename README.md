@@ -8,6 +8,7 @@ List of mods:
 
 - [Skip developer logos](skip-developer-logos): Skips developer logos on startup
 - [Paper Capio](paper-capio): Changes title screen logotype
+- [Alex's kitchen sink](kitchen-sink): All above mods in one package
 
 [merlon]: https://github.com/nanaian/merlon
 [releases]: https://github.com/nanaian/skip-intro-logos/releases
