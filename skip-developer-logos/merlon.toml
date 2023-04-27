@@ -1,0 +1,12 @@
+[package]
+id = "5e5702e8-0d38-4e8a-b79c-1014aa4f0884"
+name = "Skip developer logos"
+version = "1.0.0"
+authors = ["Alex Bates <alex@nanaian.town>"]
+description = "Skips developer logos on startup"
+license = "CC-BY-SA-4.0"
+keywords = ["qol"]
+
+[[dependencies]]
+type = "decomp"
+rev = "7a9df943ad079e7b19df0f8690bdc92e2beed964"
