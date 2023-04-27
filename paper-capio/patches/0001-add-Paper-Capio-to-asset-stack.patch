@@ -1,0 +1,39 @@
+From a6d044a138985f2e7f444a470ed5c7968526a4de Mon Sep 17 00:00:00 2001
+From: Alex Bates <alex@nanaian.town>
+Date: Thu, 27 Apr 2023 09:30:46 +0100
+Subject: add Paper Capio to asset stack
+
+---
+ ver/us/splat.yaml | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/ver/us/splat.yaml b/ver/us/splat.yaml
+index 97f53f4..086794b 100644
+--- a/ver/us/splat.yaml
++++ b/ver/us/splat.yaml
+@@ -12,21 +12,22 @@ options:
+   base_path: ../..
+   target_path: ver/us/baserom.z64
+   extensions_path: tools/splat_ext
+   symbol_addrs_path: ver/us/symbol_addrs.txt
+   ld_script_path: ver/us/papermario.ld
+   ld_symbol_header_path: ver/us/build/include/ld_addrs.h
+   src_path: src
+   asm_path: ver/us/asm
+   asset_path: assets/us
+   build_path: ver/us/build
+   cache_path: ver/us/.splat_cache
+   create_undefined_funcs_auto: False
+   create_undefined_syms_auto: False
+   undefined_funcs_auto_path: ver/us/undefined_funcs_auto.txt
+   undefined_syms_auto_path: ver/us/undefined_syms_auto.txt
+   ld_wildcard_sections: True
+   ld_use_follows: False
+ asset_stack:
++  - e09195f3-8b9f-47ec-8e03-5b26ca4f37d4 # Paper Capio
+   - us
+ segments:
+   - name: header
+-- 
+2.39.0
+

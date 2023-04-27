@@ -1,0 +1,15 @@
+[package]
+id = "e09195f3-8b9f-47ec-8e03-5b26ca4f37d4"
+name = "Paper Capio"
+version = "0.1.0"
+authors = [
+    "Alex Bates <alex@nanaian.town>",
+    "Ethan Roseman <ethteck@gmail.com>",
+]
+description = "Changes title screen logotype"
+license = "CC-BY-SA-4.0"
+keywords = ["cosmetic"]
+
+[[dependencies]]
+type = "decomp"
+rev = "7a9df943ad079e7b19df0f8690bdc92e2beed964"

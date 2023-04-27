@@ -7,6 +7,7 @@ To download, see [the releases page](releases). To apply a mod, use `merlon appl
 List of mods:
 
 - [Skip developer logos](skip-developer-logos): Skips developer logos on startup
+- [Paper Capio](paper-capio): Changes title screen logotype
 
 [merlon]: https://github.com/nanaian/merlon
 [releases]: https://github.com/nanaian/skip-intro-logos/releases
