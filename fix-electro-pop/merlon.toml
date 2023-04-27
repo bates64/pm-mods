@@ -1,0 +1,12 @@
+[package]
+id = "ca7446f9-6b5e-4899-b414-716c2354eb88"
+name = "Fix Electro Pop"
+version = "1.0.0"
+authors = ["Alex Bates <alex@nanaian.town>"]
+description = "Fixes bug where Electro Pop sets FP to HP+15 rather than FP+15"
+license = "CC-BY-SA-4.0"
+keywords = []
+
+[[dependencies]]
+type = "decomp"
+rev = "7a9df943ad079e7b19df0f8690bdc92e2beed964"

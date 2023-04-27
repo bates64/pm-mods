@@ -1,0 +1,34 @@
+From de1583e4e6bede88f7d20548f3b3389c6f805156 Mon Sep 17 00:00:00 2001
+From: Alex Bates <alex@nanaian.town>
+Date: Thu, 27 Apr 2023 17:02:19 +0100
+Subject: fix Electro Pop FP restore calculation
+
+---
+ src/battle/move/item/electro_pop.c | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+diff --git a/src/battle/move/item/electro_pop.c b/src/battle/move/item/electro_pop.c
+index d933af3..8b76a05 100644
+--- a/src/battle/move/item/electro_pop.c
++++ b/src/battle/move/item/electro_pop.c
+@@ -60,16 +60,15 @@ API_CALLABLE(N(func_802A1450_7309F0)) {
+ API_CALLABLE(N(AddFP)) {
+     PlayerData* playerData = &gPlayerData;
+     s32 amt = evt_get_variable(script, *script->ptrReadPos);
+ 
+-    // @bug Should be playerData->curFP
+-    s32 newFP = playerData->curHP + amt;
++    s32 newFP = playerData->curFP + amt;
+ 
+     if (newFP > playerData->curMaxFP) {
+         newFP = playerData->curMaxFP;
+     }
+ 
+     playerData->curFP = newFP;
+ 
+     return ApiStatus_DONE2;
+ }
+ #endif
+-- 
+2.39.0
+
