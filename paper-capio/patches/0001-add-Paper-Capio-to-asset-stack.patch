@@ -1,4 +1,4 @@
-From a6d044a138985f2e7f444a470ed5c7968526a4de Mon Sep 17 00:00:00 2001
+From c8f99a58c6e74d08d8e5672fad97b5091e77f0bb Mon Sep 17 00:00:00 2001
 From: Alex Bates <alex@nanaian.town>
 Date: Thu, 27 Apr 2023 09:30:46 +0100
 Subject: add Paper Capio to asset stack
@@ -8,7 +8,7 @@ Subject: add Paper Capio to asset stack
  1 file changed, 1 insertion(+)
 
 diff --git a/ver/us/splat.yaml b/ver/us/splat.yaml
-index 97f53f4..086794b 100644
+index e698cfb..0c9ed48 100644
 --- a/ver/us/splat.yaml
 +++ b/ver/us/splat.yaml
 @@ -12,21 +12,22 @@ options:

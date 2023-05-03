@@ -1,7 +1,7 @@
 [package]
 id = "257717d3-a5e0-4085-9279-916475693197"
 name = "Alex's kitchen sink"
-version = "1.1.0"
+version = "1.1.1"
 authors = ["Alex Bates <alex@nanaian.town>"]
 description = "All of Alex's mods"
 license = "CC-BY-SA-4.0"
@@ -9,19 +9,19 @@ keywords = []
 
 [[dependencies]]
 type = "decomp"
-rev = "7a9df943ad079e7b19df0f8690bdc92e2beed964"
+rev = "b330ba51d894774aa4709fee689e803cffe2114f"
 
 [[dependencies]]
 type = "package"
 id = "e09195f3-8b9f-47ec-8e03-5b26ca4f37d4"
-version = "~0.1.1"
+version = "~0.1.2"
 
 [[dependencies]]
 type = "package"
 id = "5e5702e8-0d38-4e8a-b79c-1014aa4f0884"
-version = "~1.0.0"
+version = "~1.0.1"
 
 [[dependencies]]
 type = "package"
 id = "ca7446f9-6b5e-4899-b414-716c2354eb88"
-version = "~1.0.0"
+version = "~1.0.1"

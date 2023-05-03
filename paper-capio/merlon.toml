@@ -1,7 +1,7 @@
 [package]
 id = "e09195f3-8b9f-47ec-8e03-5b26ca4f37d4"
 name = "Paper Capio"
-version = "0.1.1"
+version = "0.1.2"
 authors = [
     "Alex Bates <alex@nanaian.town>",
     "Ethan Roseman <ethteck@gmail.com>",
@@ -12,4 +12,4 @@ keywords = ["cosmetic"]
 
 [[dependencies]]
 type = "decomp"
-rev = "7a9df943ad079e7b19df0f8690bdc92e2beed964"
+rev = "4d8599307ac0a3718d8c4656ff90162862aa64a6"
